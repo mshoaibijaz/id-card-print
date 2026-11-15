@@ -52,7 +52,7 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
 ----------------
 - Language and theme (title bar, next to "Reset all"):
     The language button switches between Urdu (اردو) and English. The app
-    starts in Urdu; your choice is remembered in this browser. In Urdu the
+    starts in English; your choice is remembered in this browser. In Urdu the
     whole screen reads right to left and uses the Jameel Noori Nastaleeq
     font. Numbers and sizes stay in Western digits (85.6 × 54). The print
     output is exactly the same in both languages.
