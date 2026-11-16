@@ -50,8 +50,10 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
 
 3. SCREEN LAYOUT
 ----------------
-- Language and theme (title bar, next to "Reset all"):
-    The language button switches between Urdu (اردو) and English. The app
+- Language and theme (title bar):
+    The language button (top-right corner of the title bar) switches between
+    Urdu (اردو) and English. It stays in the same corner in both languages,
+    so a second click switches back. The app
     starts in English; your choice is remembered in this browser. In Urdu the
     whole screen reads right to left and uses the Jameel Noori Nastaleeq
     font. Numbers and sizes stay in Western digits (85.6 × 54). The print
