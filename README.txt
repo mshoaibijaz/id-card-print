@@ -8,6 +8,10 @@ No installation, no web server, no internet connection, no libraries.
 Your images are processed only inside your browser and are never uploaded.
 Works on computers, tablets and phones.
 
+On the first visit a welcome screen shows the four steps (add the images,
+crop, size and paper, print) and what the app can do. Click the app name
+at the top to see it again.
+
 
 1. FILES
 --------
