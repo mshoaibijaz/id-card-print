@@ -528,7 +528,10 @@ Print preview zoom:
     to the box to open the presets menu ("Fit to window", 25% to 500%);
     the current preset is ticked. The menu also works with the keyboard
     (Down arrow to open, arrows to move, Enter to pick, Esc to close).
-    Scroll the preview area when the page is larger than the window.
+    Mouse wheel: zooms in and out at the pointer, like in the Photo
+    Editor (out to "Fit to window", in to 500%).
+    When the page is larger than the window, drag it with the mouse to
+    move around, or use the scroll bars (on touch screens: swipe).
   - Full window: the button after the zoom controls (or "Full window
     preview" in the left menu) makes the preview fill the whole browser
     window, with all zoom, page and print controls still available.
