@@ -122,7 +122,7 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
 ---------------------
 Defaults: A4 portrait, standard ID card 85.6 x 54 mm, side-by-side pairs
 (one-sided), 5 copies with margins and spacing distributed evenly, all
-sections shown in the settings column, preview at 100%.
+sections shown in the settings column, preview at "Fit to window".
 
 - Each settings section has a reset icon (circular arrow) in its title
   bar, next to the collapse arrow. It restores only that section:
@@ -302,9 +302,10 @@ Crop - two modes (toolbar above the photo)
   Rectangular     Drag the corners to resize, drag inside to move.
                   Arrow keys nudge the frame (Shift = 10x).
   4-corner        For photos taken at an angle: drag the 4 points onto
-                  the 4 corners of the card. A magnifier appears while
-                  dragging for exact placement. The card is flattened
-                  into a straight rectangle.
+                  the 4 corners of the card. A large magnifier (3x)
+                  appears next to the corner while dragging, for exact
+                  placement; it keeps out of the card where it can.
+                  The card is flattened into a straight rectangle.
   Proportions: "ID card" (the card size set in Layout & Print - default),
   "Photo's own proportions" or "Free". Zoom works as in the print
   preview: - / +, type a percentage (10 to 500), or pick from the list
@@ -520,7 +521,8 @@ Getting perfect alignment:
     cutting and checking alignment.
 
 Print preview zoom:
-  - The preview opens at 100% (actual size: 96 screen pixels per inch).
+  - The preview opens at "Fit to window": the whole page is visible.
+    100% is the actual size (96 screen pixels per inch).
     The box shows the current zoom: type any value from 10% to 500%
     and press Enter. Use - / + to step, or the small arrow button next
     to the box to open the presets menu ("Fit to window", 25% to 500%);
