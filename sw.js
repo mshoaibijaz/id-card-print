@@ -14,9 +14,9 @@
 const VERSION = '2.6.0';
 const FILES = [
   "./",
-  "assets/app-B6ZANzxl.js",
+  "assets/app-w7h_Gffg.js",
   "assets/jameel-noori-nastaleeq-Harg1W3e.woff2",
-  "assets/style-Dtee4Lmn.css",
+  "assets/style-C0FcD8pk.css",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "icons/icon-512.png",

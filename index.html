@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <!-- Filled by the app with the exact @page size of the selected paper. -->
   <style id="dynamic-page-style"></style>
-  <script defer src="./assets/app-B6ZANzxl.js"></script>
-  <link rel="stylesheet" href="./assets/style-Dtee4Lmn.css">
+  <script defer src="./assets/app-w7h_Gffg.js"></script>
+  <link rel="stylesheet" href="./assets/style-C0FcD8pk.css">
 </head>
 <body>
   <div id="app" class="app">
@@ -95,7 +95,8 @@
             </button>
             <button type="button" class="section-reset" data-reset="section-images" title="Reset Image Upload to defaults" aria-label="Reset Image Upload to defaults" data-i18n-attr="title:images.reset_image_upload_to_defaults;aria-label:images.reset_image_upload_to_defaults"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4v4.5H8"/></svg></button>
           </h2>
-          <div class="panel-body" id="body-images">
+          <div class="panel-body" id="body-images" data-cards="none">
+            <p class="upload-choice" data-show="none" data-i18n-html="images.one_card_hint"><strong>One card:</strong> choose its front and back image.</p>
             <div class="upload-grid">
               <div class="upload-slot" data-side="front">
                 <div class="upload-head">
@@ -108,7 +109,7 @@
                 </div>
                 <label class="dropzone" for="file-front" data-tip="Choose or drop the image of the card front (JPG, PNG or WebP)" data-i18n-attr="data-tip:images.choose_or_drop_the_image_of">
                   <img class="upload-thumb" alt="Front image preview" hidden data-i18n-attr="alt:images.front_image_preview">
-                  <span class="dropzone-text"><strong data-i18n="images.choose_front_image">Choose front image</strong><span data-i18n="images.or_drop_it_or_both_here">or drop images here</span><small data-i18n="images.jpg_png_webp">JPG, PNG, WebP</small></span>
+                  <span class="dropzone-text"><strong data-i18n="images.choose_front_image">Choose front image</strong><span data-i18n="images.or_drop_it_here">or drop it here</span><small data-i18n="images.jpg_png_webp">JPG, PNG, WebP</small></span>
                 </label>
                 <input type="file" id="file-front" class="visually-hidden" multiple accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp">
                 <div class="upload-meta"></div>
@@ -143,10 +144,14 @@
 
             <p class="field-error" id="upload-error" role="alert" hidden></p>
             <div class="card-list-footer">
+              <p class="upload-choice" data-show="none" data-i18n-html="cards.several_hint"><strong>Several cards:</strong> choose all their images at once.</p>
+              <p class="upload-choice" data-show="one" data-i18n="cards.another_hint">Print a different card too?</p>
               <button type="button" class="btn btn-small btn-add-cards" id="btn-add-cards"
-                      data-tip="Add more cards. Choose all their images at once: front first, then back." data-i18n-attr="data-tip:cards.add_tip">
+                      data-tip="Choose the images of several cards at once (hold Ctrl and click each file): for each card the front, then the back. Several cards open a window where you check the pairs." data-i18n-attr="data-tip:cards.add_tip">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-                <span data-i18n="cards.add">Add cards</span>
+                <span data-show="none" data-i18n="cards.choose_several">Choose images</span>
+                <span data-show="one" data-i18n="cards.add_one">Add another card</span>
+                <span data-show="many" data-i18n="cards.add">Add cards</span>
               </button>
               <div class="all-copies" id="card-all-copies" hidden></div>
               <span class="card-total" id="card-total" aria-live="polite"></span>

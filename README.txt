@@ -143,19 +143,22 @@ sections shown in the settings column, preview at 100%.
 
 5. QUICK START
 --------------
-The fastest way (the green/blue "next step" bar under the image boxes
-always shows what to do next, with the button for it):
-  1. Click "Choose images" and select the images of your cards in one go
-     (front first, then back), or drop them anywhere on the page.
-     One or two images make one card straight away. More images open a
-     window where you check the cards and their copies, then click
-     "Add n cards".
+The fastest way (once an image is chosen, the green/blue "next step" bar
+under the image boxes shows what to do next, with the button for it):
+  1. Image Upload shows two ways to start:
+     - One card: click the Front box and the Back box (or drop an image
+       on each).
+     - Several cards: click "Choose images" and select all their images
+       in one go (for each card the front, then the back), or drop them
+       anywhere on the page. A window opens where you check the cards
+       and their copies, then click "Add n cards".
   2. Card scans: click "Print" in the bar.
      Phone photos (not card-shaped): click "Crop in Photo Editor". The
      card is found automatically in both photos; check the corners, click
      "Use Front" (the back opens by itself), then "Use Back". You return
      to Layout & Print with Print ready - press Enter or click it.
-  More cards later: click "Add cards" (see 6. IMAGES).
+  More cards later: click "Add another card" (with one card) or "Add
+  cards" (with several) - see 6. IMAGES.
 
 Step by step, with all options:
 1. Add the card images (click the boxes or drag files onto them). The back
@@ -231,8 +234,9 @@ Several different cards (for example card 1 x 3, card 2 x 1, card 3 x 5):
   images and card numbers there, drop a file from your computer onto a
   box, and use the keyboard (Arrow Up / Down on a card number).
 - "Every card" (beside "Add cards") sets the copies of all cards at once.
-- "Add cards" adds more cards at any time. Removing the last card only
-  empties it.
+- "Add cards" adds more cards at any time (with one card it is called
+  "Add another card"; before any image it is "Choose images"). Removing
+  the last card only empties it.
 - Cards are printed one after another, in the card order, with as many
   copies as each card has. A card with 0 copies is skipped. The total
   is shown under the list and in the Copies field (which is locked while
