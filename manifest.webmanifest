@@ -1,7 +1,7 @@
 {
   "name": "ID Card Print Layout",
   "short_name": "ID Card Print",
-  "description": "Lay out and print ID cards front and back at exact size. Works offline.",
+  "description": "Lay out and print ID cards front and back at exact size. Works without internet.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
