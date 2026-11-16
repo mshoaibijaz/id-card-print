@@ -9,8 +9,11 @@ Your images are processed only inside your browser and are never uploaded.
 Works on computers, tablets and phones.
 
 On the first visit a welcome screen shows the four steps (add the images,
-crop, size and paper, print) and what the app can do. Click the app name
-at the top to see it again.
+crop, size and paper, print) and what the app can do. Click the (?) icon
+next to the app name at the top to see it again.
+Help: the small (?) icon next to each section title opens a short help
+page for that section. Back / Next (or the arrow keys, or a swipe) move
+through the welcome page and all help pages.
 
 
 1. FILES

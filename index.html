@@ -11,14 +11,17 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <!-- Filled by the app with the exact @page size of the selected paper. -->
   <style id="dynamic-page-style"></style>
-  <script defer src="./assets/app-CkVxxzaj.js"></script>
-  <link rel="stylesheet" href="./assets/style-DwOsOWz4.css">
+  <script defer src="./assets/app-D9aDC4s7.js"></script>
+  <link rel="stylesheet" href="./assets/style-DRLqLMKv.css">
 </head>
 <body>
   <div id="app" class="app">
     <header class="app-header">
       <div class="brand">
-        <h1><button type="button" class="app-title" id="btn-welcome" data-tip="Show the welcome screen: how to print, and what the app can do" data-i18n-attr="data-tip:app.show_welcome_tip"><span data-i18n="app.id_card_print_layout">ID Card Print Layout</span> <span class="app-version" id="app-version" dir="ltr" lang="en" data-no-i18n></span></button></h1>
+        <div class="brand-title">
+          <h1><span data-i18n="app.id_card_print_layout">ID Card Print Layout</span> <span class="app-version" id="app-version" dir="ltr" lang="en" data-no-i18n></span></h1>
+          <button type="button" class="section-help" id="btn-welcome" data-help="welcome" data-tip="Show the welcome screen: how to print, and what the app can do" data-i18n-attr="data-tip:app.show_welcome_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button>
+        </div>
         <p class="subtitle" data-i18n="app.works_offline_images_never_leave_this">Needs internet only once · images stay on this device</p>
       </div>
       <div class="view-tabs" role="tablist" aria-label="Views" data-i18n-attr="aria-label:app.views">
@@ -91,8 +94,10 @@
         <section class="panel collapsible" id="section-images">
           <h2 class="panel-heading">
             <button type="button" class="collapse-toggle" data-tip="Show or hide this section" aria-expanded="true" aria-controls="body-images" data-i18n-attr="data-tip:images.show_or_hide_this_section">
-              <span class="step">1</span><span class="panel-title" data-i18n="images.image_upload">Image Upload</span><span class="chevron" aria-hidden="true"></span>
+              <span class="step">1</span><span class="panel-title" data-i18n="images.image_upload">Image Upload</span>
             </button>
+            <button type="button" class="section-help" data-help="images" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button>
+            <span class="chevron" aria-hidden="true"></span>
             <button type="button" class="section-reset" data-reset="section-images" title="Reset Image Upload to defaults" aria-label="Reset Image Upload to defaults" data-i18n-attr="title:images.reset_image_upload_to_defaults;aria-label:images.reset_image_upload_to_defaults"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4v4.5H8"/></svg></button>
           </h2>
           <div class="panel-body" id="body-images" data-cards="none">
@@ -173,8 +178,10 @@
         <section class="panel collapsible" id="section-card">
           <h2 class="panel-heading">
             <button type="button" class="collapse-toggle" data-tip="Show or hide this section" aria-expanded="true" aria-controls="body-card" data-i18n-attr="data-tip:images.show_or_hide_this_section">
-              <span class="step">2</span><span class="panel-title" data-i18n="card.card_size_and_copies">Card Size and Copies</span><span class="chevron" aria-hidden="true"></span>
+              <span class="step">2</span><span class="panel-title" data-i18n="card.card_size_and_copies">Card Size and Copies</span>
             </button>
+            <button type="button" class="section-help" data-help="card" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button>
+            <span class="chevron" aria-hidden="true"></span>
             <button type="button" class="section-reset" data-reset="section-card" title="Reset Card Size and Copies to defaults" aria-label="Reset Card Size and Copies to defaults" data-i18n-attr="title:card.reset_card_size_and_copies_to;aria-label:card.reset_card_size_and_copies_to"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4v4.5H8"/></svg></button>
           </h2>
                     <div class="panel-body" id="body-card">
@@ -233,8 +240,10 @@
         <section class="panel collapsible" id="section-layout">
           <h2 class="panel-heading">
             <button type="button" class="collapse-toggle" data-tip="Show or hide this section" aria-expanded="true" aria-controls="body-layout" data-i18n-attr="data-tip:images.show_or_hide_this_section">
-              <span class="step">3</span><span class="panel-title" data-i18n="layout.layout_options">Layout Options</span><span class="chevron" aria-hidden="true"></span>
+              <span class="step">3</span><span class="panel-title" data-i18n="layout.layout_options">Layout Options</span>
             </button>
+            <button type="button" class="section-help" data-help="layout" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button>
+            <span class="chevron" aria-hidden="true"></span>
             <button type="button" class="section-reset" data-reset="section-layout" title="Reset Layout Options to defaults" aria-label="Reset Layout Options to defaults" data-i18n-attr="title:layout.reset_layout_options_to_defaults;aria-label:layout.reset_layout_options_to_defaults"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4v4.5H8"/></svg></button>
           </h2>
                     <div class="panel-body" id="body-layout">
@@ -314,8 +323,10 @@
         <section class="panel collapsible" id="section-paper">
           <h2 class="panel-heading">
             <button type="button" class="collapse-toggle" data-tip="Show or hide this section" aria-expanded="true" aria-controls="body-paper" data-i18n-attr="data-tip:images.show_or_hide_this_section">
-              <span class="step">4</span><span class="panel-title" data-i18n="paper.paper_margins_and_spacing">Paper, Margins and Spacing</span><span class="chevron" aria-hidden="true"></span>
+              <span class="step">4</span><span class="panel-title" data-i18n="paper.paper_margins_and_spacing">Paper, Margins and Spacing</span>
             </button>
+            <button type="button" class="section-help" data-help="paper" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button>
+            <span class="chevron" aria-hidden="true"></span>
             <button type="button" class="section-reset" data-reset="section-paper" title="Reset Paper, Margins and Spacing to defaults" aria-label="Reset Paper, Margins and Spacing to defaults" data-i18n-attr="title:paper.reset_paper_margins_and_spacing_to;aria-label:paper.reset_paper_margins_and_spacing_to"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4v4.5H8"/></svg></button>
           </h2>
                     <div class="panel-body" id="body-paper">
@@ -420,7 +431,7 @@
       <div class="output-column">
         <section class="panel preview-panel" id="section-preview" aria-labelledby="h-preview">
           <div class="panel-head">
-            <h2 id="h-preview" class="static-heading" title="Print Preview" data-i18n-attr="title:preview.print_preview"><span class="step">5</span><span class="preview-title-text" data-i18n="preview.print_preview">Print Preview</span></h2>
+            <h2 id="h-preview" class="static-heading" title="Print Preview" data-i18n-attr="title:preview.print_preview"><span class="step">5</span><span class="preview-title-text" data-i18n="preview.print_preview">Print Preview</span><button type="button" class="section-help" data-help="preview" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button></h2>
             <div class="preview-toolbar">
               <div class="toggle-group" id="preview-side-toggle" role="group" aria-label="Preview side" data-tip="Switch the preview between the front and back pages" data-i18n-attr="aria-label:preview.preview_side;data-tip:preview.switch_the_preview_between_the_front">
                 <button type="button" data-side="front" aria-pressed="true" data-i18n="images.front">Front</button>
@@ -492,7 +503,7 @@
     <section class="editor-view" id="editor-view" role="tabpanel" aria-labelledby="tab-editor" hidden>
       <aside class="editor-photos" aria-label="Photos" data-i18n-attr="aria-label:editor.photos">
         <div class="editor-photos-head">
-          <h2 data-i18n="editor.photos">Photos</h2>
+          <h2 class="help-heading"><span data-i18n="editor.photos">Photos</span><button type="button" class="section-help" data-help="editor-photos" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button></h2>
           <div class="editor-card-switch" id="editor-card-switch" hidden>
             <button type="button" class="icon-btn" id="editor-card-prev" aria-label="Previous card" data-tip="Previous card" data-i18n-attr="aria-label:editor.prev_card;data-tip:editor.prev_card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
             <span class="editor-card-label" id="editor-card-label" aria-live="polite"></span>
@@ -592,14 +603,14 @@
 
       <aside class="editor-tools" id="editor-tools" aria-label="Editing tools" data-i18n-attr="aria-label:editor.editing_tools">
         <div class="editor-result-card" aria-label="Result" data-i18n-attr="aria-label:editor.result">
-          <div class="tool-group-head"><h3 data-i18n="editor.result">Result</h3></div>
+          <div class="tool-group-head"><h3 class="help-heading"><span data-i18n="editor.result">Result</span><button type="button" class="section-help" data-help="editor-result" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button></h3></div>
           <div class="editor-result-box"><canvas id="editor-result" width="320" height="200"></canvas></div>
           <p class="editor-result-info" id="editor-result-info"></p>
           <p class="editor-result-warn" id="editor-result-warn"></p>
         </div>
         <div class="editor-tools-scroll">
           <div class="tool-group">
-            <div class="tool-group-head"><h3 data-i18n="editor.crop">Crop</h3><button type="button" class="link-btn" id="editor-reset-crop" data-tip="Reset the crop frame" data-i18n="editor.reset" data-i18n-attr="data-tip:editor.reset_the_crop_frame">Reset</button></div>
+            <div class="tool-group-head"><h3 class="help-heading"><span data-i18n="editor.crop">Crop</span><button type="button" class="section-help" data-help="editor-crop" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button></h3><button type="button" class="link-btn" id="editor-reset-crop" data-tip="Reset the crop frame" data-i18n="editor.reset" data-i18n-attr="data-tip:editor.reset_the_crop_frame">Reset</button></div>
             <label class="inline-field"><span class="field-label" data-i18n="editor.proportions">Proportions</span>
               <select id="editor-ratio" data-tip="Keep the crop in the card proportions, the photo’s own, or free" data-i18n-attr="data-tip:editor.keep_the_crop_in_the_card">
                 <option value="card" data-i18n="editor.id_card_size">ID card size</option>
@@ -611,7 +622,7 @@
           </div>
 
           <div class="tool-group">
-            <div class="tool-group-head"><h3 data-i18n="editor.rotate">Rotate</h3></div>
+            <div class="tool-group-head"><h3 class="help-heading"><span data-i18n="editor.rotate">Rotate</span><button type="button" class="section-help" data-help="editor-rotate" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button></h3></div>
             <div class="tool-row">
               <button type="button" class="btn btn-icon" data-orient="ccw" title="Rotate left 90°" aria-label="Rotate left 90 degrees" data-i18n-attr="title:editor.rotate_left_90;aria-label:editor.rotate_left_90_degrees"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4v5h5"/><path d="M3.5 9A9 9 0 1 1 6 18"/></svg></button>
               <button type="button" class="btn btn-icon" data-orient="cw" title="Rotate right 90°" aria-label="Rotate right 90 degrees" data-i18n-attr="title:editor.rotate_right_90;aria-label:editor.rotate_right_90_degrees"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 4v5h-5"/><path d="M20.5 9A9 9 0 1 0 18 18"/></svg></button>
@@ -624,7 +635,7 @@
           </div>
 
           <div class="tool-group">
-            <div class="tool-group-head"><h3 data-i18n="editor.adjust">Adjust</h3><button type="button" class="link-btn" id="editor-reset-adjust" data-tip="Set all colour adjustments back to normal" data-i18n="editor.reset" data-i18n-attr="data-tip:editor.set_all_colour_adjustments_back_to">Reset</button></div>
+            <div class="tool-group-head"><h3 class="help-heading"><span data-i18n="editor.adjust">Adjust</span><button type="button" class="section-help" data-help="editor-adjust" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button></h3><button type="button" class="link-btn" id="editor-reset-adjust" data-tip="Set all colour adjustments back to normal" data-i18n="editor.reset" data-i18n-attr="data-tip:editor.set_all_colour_adjustments_back_to">Reset</button></div>
             <button type="button" class="btn btn-small editor-auto" id="editor-auto" aria-pressed="false" title="Even out dull or dark lighting and colour casts" data-i18n="editor.auto_enhance" data-i18n-attr="title:editor.even_out_dull_or_dark_lighting">✨ Auto enhance</button>
             <label class="range-field" for="adj-brightness"><span><span data-i18n="editor.brightness">Brightness</span> <output id="adj-brightness-value">0</output></span><input type="range" id="adj-brightness" min="-100" max="100" step="1" value="0" data-tip="Lighter or darker" data-i18n-attr="data-tip:editor.lighter_or_darker"></label>
             <label class="range-field" for="adj-contrast"><span><span data-i18n="editor.contrast">Contrast</span> <output id="adj-contrast-value">0</output></span><input type="range" id="adj-contrast" min="-100" max="100" step="1" value="0" data-tip="More or less difference between light and dark" data-i18n-attr="data-tip:editor.more_or_less_difference_between_light"></label>
@@ -634,7 +645,7 @@
           </div>
 
           <div class="tool-group editor-output">
-            <div class="tool-group-head"><h3 data-i18n="editor.output_both_photos">Output (both photos)</h3></div>
+            <div class="tool-group-head"><h3 class="help-heading"><span data-i18n="editor.output_both_photos">Output (both photos)</span><button type="button" class="section-help" data-help="editor-result" data-tip="Help for this section: what it does and how to use it" data-i18n-attr="data-tip:help.open_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button></h3></div>
             <label class="inline-field"><span class="field-label" data-i18n="editor.quality">Quality</span><select id="editor-dpi" data-tip="Resolution of the finished image. 600 DPI is sharp for printing" data-i18n-attr="data-tip:editor.resolution_of_the_finished_image_600"></select></label>
             <div class="inline-row">
               <label class="check" data-tip="Cut the image corners round like a real card (outside is white)" data-i18n-attr="data-tip:editor.cut_the_image_corners_round_like"><input type="checkbox" id="editor-rounded"><span data-i18n="editor.rounded_corners">Rounded corners</span></label>
@@ -699,6 +710,12 @@
        Shown on the first visit; the app name in the title bar opens it again. -->
   <dialog class="welcome-dialog" id="welcome-dialog" aria-labelledby="welcome-title" data-no-tip>
     <div class="welcome-body">
+      <button type="button" class="btn btn-small btn-language welcome-language" id="btn-welcome-language" data-no-i18n>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+        <span id="welcome-language-label"></span>
+      </button>
+      <div class="welcome-pages">
+        <section class="welcome-page" data-page="welcome" aria-labelledby="welcome-title">
       <header class="welcome-head">
         <svg class="welcome-logo" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="7" width="28" height="18" rx="3" fill="#1f5fbf"/><circle cx="10" cy="16" r="3.5" fill="#fff"/><rect x="16" y="12" width="10" height="2.5" rx="1" fill="#fff"/><rect x="16" y="17" width="7" height="2.5" rx="1" fill="#fff"/></svg>
         <div>
@@ -706,10 +723,6 @@
           <p data-i18n="welcome.subtitle">Print ID cards at their exact size in 4 steps.</p>
         </div>
       </header>
-      <button type="button" class="btn btn-small btn-language welcome-language" id="btn-welcome-language" data-no-i18n>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
-        <span id="welcome-language-label"></span>
-      </button>
       <ol class="welcome-cycle">
           <li class="welcome-step" data-step="1">
             <svg class="welcome-art" viewBox="0 0 160 96" aria-hidden="true"><g transform="rotate(-6 52 52)"><rect x="14" y="26" width="72" height="46" rx="5" class="wa-card"/><circle cx="31" cy="45" r="7" class="wa-soft"/><path d="M21 63c2-7 18-7 20 0" class="wa-soft"/><rect x="46" y="38" width="30" height="4" rx="2" class="wa-line"/><rect x="46" y="47" width="22" height="4" rx="2" class="wa-line"/><rect x="46" y="56" width="26" height="4" rx="2" class="wa-line"/></g><g transform="rotate(5 112 52)"><rect x="76" y="30" width="72" height="46" rx="5" class="wa-card a-back"/><rect x="86" y="40" width="52" height="5" rx="2" class="wa-line"/><path d="M88 54v14M92 54v14M95 54v14M100 54v14M103 54v14M108 54v14M112 54v14M115 54v14M120 54v14M124 54v14M128 54v14M133 54v14" class="wa-bar"/></g><circle cx="80" cy="16" r="13" class="wa-fill"/><path d="M80 23V10M74 15l6-6 6 6" class="wa-on"/></svg>
@@ -748,9 +761,196 @@
           <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 14l3 3 3-3M12 10v7"/></svg><span><strong data-i18n="welcome.f_files">PDF and pictures</strong><small data-i18n="welcome.f_files_text">Save instead of printing</small></span></li>
           <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span><strong data-i18n-html="welcome.f_languages">English and <span lang="ur">اردو</span></strong><small data-i18n="welcome.f_languages_text">Light and dark theme</small></span></li>
       </ul>
+      <p class="welcome-again" data-i18n="welcome.again">See this again: click (?) next to the app name.</p>
+        </section>
+        <section class="welcome-page help-page" data-page="images" aria-labelledby="help-title-images">
+          <header class="welcome-head help-head">
+            <span class="step">1</span>
+            <div>
+              <p class="help-area" data-i18n="app.layout_print">Layout &amp; Print</p>
+              <h2 id="help-title-images" data-i18n="images.image_upload">Image Upload</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><g transform="rotate(-6 52 52)"><rect x="14" y="26" width="72" height="46" rx="5" class="wa-card"/><circle cx="31" cy="45" r="7" class="wa-soft"/><path d="M21 63c2-7 18-7 20 0" class="wa-soft"/><rect x="46" y="38" width="30" height="4" rx="2" class="wa-line"/><rect x="46" y="47" width="22" height="4" rx="2" class="wa-line"/><rect x="46" y="56" width="26" height="4" rx="2" class="wa-line"/></g><g transform="rotate(5 112 52)"><rect x="76" y="30" width="72" height="46" rx="5" class="wa-card a-back"/><rect x="86" y="40" width="52" height="5" rx="2" class="wa-line"/><path d="M88 54v14M92 54v14M95 54v14M100 54v14M103 54v14M108 54v14M112 54v14M115 54v14M120 54v14M124 54v14M128 54v14M133 54v14" class="wa-bar"/></g><circle cx="80" cy="16" r="13" class="wa-fill"/><path d="M80 23V10M74 15l6-6 6 6" class="wa-on"/></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.images.1"><strong>One card:</strong> click the Front and Back boxes, or drop an image on each. The back is optional.</li>
+            <li data-i18n-html="help.images.2"><strong>Several cards:</strong> click “Choose images” and select all images at once: for each card the front, then the back. Check the pairs in the window that opens.</li>
+            <li data-i18n-html="help.images.3"><strong>Each image:</strong> the icons above it open it in the Photo Editor, replace it or remove it; ⇄ swaps front and back.</li>
+            <li data-i18n-html="help.images.4"><strong>Next step:</strong> the bar under the images says what to do next, with its button. Images of 300 DPI or more print sharp.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="card" aria-labelledby="help-title-card">
+          <header class="welcome-head help-head">
+            <span class="step">2</span>
+            <div>
+              <p class="help-area" data-i18n="app.layout_print">Layout &amp; Print</p>
+              <h2 id="help-title-card" data-i18n="card.card_size_and_copies">Card Size and Copies</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><rect x="34" y="20" width="92" height="58" rx="6" class="wa-card"/><circle cx="56" cy="44" r="9" class="wa-soft"/><path d="M43 66c3-9 23-9 26 0" class="wa-soft"/><rect x="78" y="36" width="38" height="5" rx="2.5" class="wa-line"/><rect x="78" y="47" width="28" height="5" rx="2.5" class="wa-line"/><rect x="78" y="58" width="33" height="5" rx="2.5" class="wa-line"/><path d="M34 10h92M34 6v8M126 6v8" class="wa-dim"/><path d="M138 20v58M134 20h8M134 78h8" class="wa-dim"/><text x="80" y="8" class="wa-text">85.6</text><text x="150" y="53" class="wa-text">54</text><text x="80" y="92" class="wa-text">mm · in</text></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.card.1"><strong>Size:</strong> the width and height of the finished card. “Standard ID size” sets 85.6 × 54 mm; the chain keeps the proportions.</li>
+            <li data-i18n-html="help.card.2"><strong>Unit:</strong> millimetres or inches, for every size in the app.</li>
+            <li data-i18n-html="help.card.3"><strong>Image fit:</strong> when the image proportions differ from the card: stretch it, fill the card (edges cut off) or fit the whole image (white edges).</li>
+            <li data-i18n-html="help.card.4"><strong>Copies:</strong> how many to print. “Fill one page” uses every place on the page; the line below the field says what one copy gives.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="layout" aria-labelledby="help-title-layout">
+          <header class="welcome-head help-head">
+            <span class="step">3</span>
+            <div>
+              <p class="help-area" data-i18n="app.layout_print">Layout &amp; Print</p>
+              <h2 id="help-title-layout" data-i18n="layout.layout_options">Layout Options</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><rect x="8" y="10" width="56" height="78" rx="3" class="wa-page"/><rect x="13" y="16" width="22" height="14" rx="2" class="wa-mini"/><rect x="37" y="16" width="22" height="14" rx="2" class="wa-mini wa-back"/><rect x="13" y="33" width="22" height="14" rx="2" class="wa-mini"/><rect x="37" y="33" width="22" height="14" rx="2" class="wa-mini wa-back"/><rect x="13" y="50" width="22" height="14" rx="2" class="wa-mini"/><rect x="37" y="50" width="22" height="14" rx="2" class="wa-mini wa-back"/><rect x="88" y="10" width="44" height="62" rx="3" class="wa-page"/><rect x="93" y="16" width="16" height="11" rx="2" class="wa-mini"/><rect x="111" y="16" width="16" height="11" rx="2" class="wa-mini"/><rect x="93" y="30" width="16" height="11" rx="2" class="wa-mini"/><rect x="111" y="30" width="16" height="11" rx="2" class="wa-mini"/><rect x="104" y="26" width="44" height="62" rx="3" class="wa-page"/><rect x="109" y="32" width="16" height="11" rx="2" class="wa-mini wa-back"/><rect x="127" y="32" width="16" height="11" rx="2" class="wa-mini wa-back"/><rect x="109" y="46" width="16" height="11" rx="2" class="wa-mini wa-back"/><rect x="127" y="46" width="16" height="11" rx="2" class="wa-mini wa-back"/><path d="M70 49h12M78 45l4 4-4 4" class="wa-arrow"/></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.layout.1"><strong>Side-by-side pairs:</strong> each front sits next to its back on the same page; print on one side of the paper.</li>
+            <li data-i18n-html="help.layout.2"><strong>Separate pages:</strong> all fronts on one page and the backs on the reverse side, for real double-sided cards.</li>
+            <li data-i18n-html="help.layout.3"><strong>Sides:</strong> one-sided or double-sided. Double-sided: the printer turns the paper itself (automatic duplex), or you print the fronts, put the paper back and print the backs (manual).</li>
+            <li data-i18n-html="help.layout.4"><strong>Flip on:</strong> choose the same edge as in the print dialog. After a test print, a small shift lines the backs up exactly.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="paper" aria-labelledby="help-title-paper">
+          <header class="welcome-head help-head">
+            <span class="step">4</span>
+            <div>
+              <p class="help-area" data-i18n="app.layout_print">Layout &amp; Print</p>
+              <h2 id="help-title-paper" data-i18n="paper.paper_margins_and_spacing">Paper, Margins and Spacing</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><rect x="46" y="2" width="68" height="92" rx="3" class="wa-page"/><rect x="54" y="10" width="52" height="76" class="wa-margin"/><rect x="57" y="14" width="22" height="14" rx="2" class="wa-mini"/><rect x="81" y="14" width="22" height="14" rx="2" class="wa-mini wa-back"/><rect x="57" y="32" width="22" height="14" rx="2" class="wa-mini"/><rect x="81" y="32" width="22" height="14" rx="2" class="wa-mini wa-back"/><rect x="57" y="50" width="22" height="14" rx="2" class="wa-mini"/><rect x="81" y="50" width="22" height="14" rx="2" class="wa-mini wa-back"/><path d="M80 66v26M57 89h46" class="wa-cut"/><path d="M8 48h30M34 44l4 4-4 4M12 44l-4 4 4 4" class="wa-dim"/><text x="23" y="40" class="wa-text">A4</text><path d="M122 48h30M126 44l-4 4 4 4M148 44l4 4-4 4" class="wa-dim"/><text x="137" y="40" class="wa-text">mm</text></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.paper.1"><strong>Paper:</strong> the size in your printer (A4, Letter … or a custom size), portrait or landscape.</li>
+            <li data-i18n-html="help.paper.2"><strong>Distribute evenly:</strong> fits as many cards as possible, with equal margins and gaps. Turn it off to type your own values.</li>
+            <li data-i18n-html="help.paper.3"><strong>Margins and spacing:</strong> blank space at the paper edges and between the cards, in mm or inches.</li>
+            <li data-i18n-html="help.paper.4"><strong>Cutting:</strong> dotted cutting guides and thin card outlines make cutting easier; “Center the cards” keeps them in the middle.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="preview" aria-labelledby="help-title-preview">
+          <header class="welcome-head help-head">
+            <span class="step">5</span>
+            <div>
+              <p class="help-area" data-i18n="app.layout_print">Layout &amp; Print</p>
+              <h2 id="help-title-preview" data-i18n="preview.print_preview">Print Preview</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><rect x="10" y="4" width="68" height="88" rx="3" class="wa-page"/><rect x="16" y="12" width="26" height="16" rx="2" class="wa-mini"/><rect x="46" y="12" width="26" height="16" rx="2" class="wa-mini wa-back"/><rect x="16" y="32" width="26" height="16" rx="2" class="wa-mini"/><rect x="46" y="32" width="26" height="16" rx="2" class="wa-mini wa-back"/><rect x="16" y="52" width="26" height="16" rx="2" class="wa-mini"/><rect x="46" y="52" width="26" height="16" rx="2" class="wa-mini wa-back"/><circle cx="62" cy="62" r="18" class="wa-lens"/><path d="M75 75l12 12" class="wa-handle-line"/><rect x="96" y="26" width="58" height="32" rx="7" class="wa-printer"/><rect x="106" y="14" width="38" height="14" rx="2" class="wa-page"/><rect x="104" y="48" width="42" height="30" rx="2" class="wa-page"/><path d="M110 58h30M110 66h22" class="wa-dim"/><circle cx="146" cy="36" r="2.5" class="wa-ok"/></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.preview.1"><strong>Exactly as printed:</strong> Front / Back shows both sides of the page, the arrows show the other pages.</li>
+            <li data-i18n-html="help.preview.2"><strong>Zoom:</strong> starts at “Fit to window”. The mouse wheel zooms at the pointer; drag the page to move around; 100% is the actual size.</li>
+            <li data-i18n-html="help.preview.3"><strong>Print:</strong> in the print dialog choose the same paper, scale 100% (Actual size) and turn off “Fit to page”. The settings icon next to Print explains it.</li>
+            <li data-i18n-html="help.preview.4"><strong>Download:</strong> save the layout as a PDF or a picture (PNG, JPEG) to print later or at a print shop.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="editor-photos" aria-labelledby="help-title-editor-photos">
+          <header class="welcome-head help-head">
+            <span class="help-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg></span>
+            <div>
+              <p class="help-area" data-i18n="app.photo_editor">Photo Editor</p>
+              <h2 id="help-title-editor-photos" data-i18n="editor.photos">Photos</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><rect x="12" y="14" width="58" height="68" rx="6" class="wa-photo"/><g transform="rotate(-8 41 48)"><rect x="20" y="34" width="42" height="27" rx="3" class="wa-card"/><circle cx="30" cy="45" r="4.5" class="wa-soft"/><rect x="38" y="41" width="18" height="3" rx="1.5" class="wa-line"/><rect x="38" y="48" width="14" height="3" rx="1.5" class="wa-line"/></g><rect x="90" y="14" width="58" height="68" rx="6" class="wa-photo"/><g transform="rotate(6 119 48)"><rect x="98" y="34" width="42" height="27" rx="3" class="wa-card wa-back"/><path d="M104 46v10M107 46v10M110 46v10M114 46v10M117 46v10M121 46v10M124 46v10M128 46v10M131 46v10" class="wa-bar"/></g><text x="41" y="94" class="wa-text">F</text><text x="119" y="94" class="wa-text">B</text><path d="M74 42h12M82 38l4 4-4 4M86 54H74M78 50l-4 4 4 4" class="wa-arrow"/></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.editor-photos.1"><strong>Load photos:</strong> the front and back of the card, from a phone or a camera (JPG, PNG, WebP), or drop them here.</li>
+            <li data-i18n-html="help.editor-photos.2"><strong>Front / Back:</strong> click a box to edit that photo; ⇄ swaps them, × removes one.</li>
+            <li data-i18n-html="help.editor-photos.3"><strong>Several cards:</strong> the arrows above switch between the cards; “Use all” puts every card into the layout at once.</li>
+            <li data-i18n-html="help.editor-photos.4"><strong>Status:</strong> under each photo you see whether it is already used in the layout.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="editor-crop" aria-labelledby="help-title-editor-crop">
+          <header class="welcome-head help-head">
+            <span class="help-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg></span>
+            <div>
+              <p class="help-area" data-i18n="app.photo_editor">Photo Editor</p>
+              <h2 id="help-title-editor-crop" data-i18n="editor.crop">Crop</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><rect x="22" y="6" width="116" height="84" rx="8" class="wa-photo"/><g transform="rotate(-9 80 48)"><rect x="42" y="25" width="76" height="47" rx="4" class="wa-card"/><circle cx="58" cy="44" r="7" class="wa-soft"/><path d="M48 62c2-7 18-7 20 0" class="wa-soft"/><rect x="74" y="37" width="34" height="4" rx="2" class="wa-line"/><rect x="74" y="46" width="24" height="4" rx="2" class="wa-line"/></g><path d="M38.6 31.3L113.6 19.4L121.4 65.8L46.4 77.7Z" class="wa-crop"/><circle cx="38.6" cy="31.3" r="5" class="wa-handle"/><circle cx="113.6" cy="19.4" r="5" class="wa-handle"/><circle cx="121.4" cy="65.8" r="5" class="wa-handle"/><circle cx="46.4" cy="77.7" r="5" class="wa-handle"/></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.editor-crop.1"><strong>Detect card:</strong> the card’s 4 corners are found by themselves when a photo is opened.</li>
+            <li data-i18n-html="help.editor-crop.2"><strong>4-corner:</strong> drag the points onto the card corners; a magnifier helps. The card is straightened, even in a photo taken at an angle.</li>
+            <li data-i18n-html="help.editor-crop.3"><strong>Rectangular:</strong> a straight frame, for photos taken from straight above. Proportions: ID card, the photo’s own, or free.</li>
+            <li data-i18n-html="help.editor-crop.4"><strong>Use Front / Use Back:</strong> puts the cropped card into the layout. Zoom with the mouse wheel or the zoom box.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="editor-rotate" aria-labelledby="help-title-editor-rotate">
+          <header class="welcome-head help-head">
+            <span class="help-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg></span>
+            <div>
+              <p class="help-area" data-i18n="app.photo_editor">Photo Editor</p>
+              <h2 id="help-title-editor-rotate" data-i18n="editor.rotate">Rotate</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><g transform="rotate(-14 80 50)"><rect x="40" y="26" width="80" height="50" rx="5" class="wa-card"/><circle cx="58" cy="46" r="8" class="wa-soft"/><path d="M47 66c3-8 20-8 23 0" class="wa-soft"/><rect x="76" y="40" width="34" height="4" rx="2" class="wa-line"/><rect x="76" y="50" width="25" height="4" rx="2" class="wa-line"/></g><path d="M128 22a40 40 0 0 1 6 44" class="wa-arrow"/><path d="M129 60l5 7 6-6" class="wa-arrow"/><path d="M32 74a40 40 0 0 1-6-44" class="wa-arrow"/><path d="M31 36l-5-7-6 6" class="wa-arrow"/><text x="80" y="94" class="wa-text">90°</text></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.editor-rotate.1"><strong>Rotate:</strong> turn the photo left or right by 90°.</li>
+            <li data-i18n-html="help.editor-rotate.2"><strong>Flip:</strong> mirror the photo horizontally or vertically, for example a mirrored selfie.</li>
+            <li data-i18n-html="help.editor-rotate.3"><strong>Straighten:</strong> the slider fixes a small tilt.</li>
+            <li data-i18n-html="help.editor-rotate.4"><strong>Check:</strong> the Result box shows the card as it will be printed.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="editor-adjust" aria-labelledby="help-title-editor-adjust">
+          <header class="welcome-head help-head">
+            <span class="help-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg></span>
+            <div>
+              <p class="help-area" data-i18n="app.photo_editor">Photo Editor</p>
+              <h2 id="help-title-editor-adjust" data-i18n="editor.adjust">Adjust</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><circle cx="26" cy="22" r="9" class="wa-sun"/><path d="M26 6v4M26 34v4M10 22h4M38 22h4M15 11l3 3M34 30l3 3M15 33l3-3M34 14l3-3" class="wa-dim"/><path d="M56 22h92" class="wa-track"/><circle cx="112" cy="22" r="7" class="wa-knob"/><path d="M56 48h92" class="wa-track"/><circle cx="88" cy="48" r="7" class="wa-knob"/><path d="M56 74h92" class="wa-track"/><circle cx="128" cy="74" r="7" class="wa-knob"/><circle cx="26" cy="48" r="9" class="wa-half"/><path d="M26 39a9 9 0 0 1 0 18z" class="wa-fill"/><path d="M18 74l8-10 8 10z" class="wa-soft"/></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.editor-adjust.1"><strong>Auto enhance:</strong> evens out dull or dark lighting and colour casts in one click.</li>
+            <li data-i18n-html="help.editor-adjust.2"><strong>Sliders:</strong> brightness, contrast, saturation and sharpness. Too much sharpness adds noise.</li>
+            <li data-i18n-html="help.editor-adjust.3"><strong>Black & white:</strong> for a print without colour.</li>
+            <li data-i18n-html="help.editor-adjust.4"><strong>Hold: before:</strong> hold the button to compare with the photo before the changes. Reset sets everything back.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="welcome-page help-page" data-page="editor-result" aria-labelledby="help-title-editor-result">
+          <header class="welcome-head help-head">
+            <span class="help-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg></span>
+            <div>
+              <p class="help-area" data-i18n="app.photo_editor">Photo Editor</p>
+              <h2 id="help-title-editor-result" data-i18n="help.result_output">Result and Output</h2>
+            </div>
+          </header>
+          <div class="help-content">
+            <svg class="help-art" viewBox="0 0 160 96" aria-hidden="true"><rect x="22" y="16" width="100" height="64" rx="12" class="wa-card"/><circle cx="46" cy="44" r="10" class="wa-soft"/><path d="M33 70c3-10 23-10 26 0" class="wa-soft"/><rect x="68" y="34" width="42" height="5" rx="2.5" class="wa-line"/><rect x="68" y="46" width="32" height="5" rx="2.5" class="wa-line"/><rect x="68" y="58" width="38" height="5" rx="2.5" class="wa-line"/><path d="M22 34a18 18 0 0 1 18-18" class="wa-corner"/><rect x="104" y="6" width="50" height="20" rx="10" class="wa-fill"/><text x="129" y="20" class="wa-text wa-on-text">600 DPI</text></svg>
+            <ul class="help-points">
+            <li data-i18n-html="help.editor-result.1"><strong>Result:</strong> the finished card, exactly as it goes into the layout.</li>
+            <li data-i18n-html="help.editor-result.2"><strong>Quality:</strong> 600 DPI is recommended, 300 DPI is good; higher values make larger files.</li>
+            <li data-i18n-html="help.editor-result.3"><strong>Rounded corners:</strong> cut the corners round like a real card (standard ID cards: 3.18 mm).</li>
+            <li data-i18n-html="help.editor-result.4"><strong>Both photos:</strong> these settings apply to the front and the back.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
       <footer class="welcome-foot">
-        <span data-i18n="welcome.again">See this again: click the app name.</span>
-        <button type="button" class="btn btn-primary" id="btn-welcome-start" title="Close this screen and start" data-i18n="welcome.start" data-i18n-attr="title:welcome.start_tip">Start</button>
+        <nav class="welcome-nav" aria-label="Help pages" data-i18n-attr="aria-label:help.pages">
+          <button type="button" class="btn btn-small welcome-prev" id="btn-welcome-prev" title="Back" data-i18n-attr="title:help.back"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span data-i18n="help.back">Back</span></button>
+          <span class="welcome-dots" id="welcome-dots"></span>
+          <button type="button" class="btn btn-small welcome-next" id="btn-welcome-next" title="Next" data-i18n-attr="title:help.next"><span data-i18n="help.next">Next</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </nav>
+        <button type="button" class="btn btn-primary" id="btn-welcome-start" title="Close this screen and start">Start</button>
       </footer>
     </div>
   </dialog>
