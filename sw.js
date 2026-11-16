@@ -11,12 +11,12 @@
  *
  * The double-click (file://) version does not use this file at all.
  */
-const VERSION = '2.11.1';
+const VERSION = '2.12.0';
 const FILES = [
   "./",
-  "assets/app-CijL1n6M.js",
+  "assets/app-CRnWgCc0.js",
   "assets/jameel-noori-nastaleeq-Harg1W3e.woff2",
-  "assets/style-DRLqLMKv.css",
+  "assets/style-DHnqAGN2.css",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "icons/icon-512.png",

@@ -8,8 +8,12 @@ No installation, no web server, no internet connection, no libraries.
 Your images are processed only inside your browser and are never uploaded.
 Works on computers, tablets and phones.
 
-On the first visit a welcome screen shows the four steps (add the images,
-crop, size and paper, print) and what the app can do. Click the (?) icon
+On the first visit a welcome screen shows a short animated story: the usual
+problems (a photo printed crooked and at the wrong size, cards lined up by
+hand at a photocopy shop or in Word) and how the app solves them (add the
+images, crop, size and paper, copies, print, cut, or save as PDF / PNG /
+JPG), plus what the app can do. The buttons under the story jump to a
+scene; the button with two bars pauses it. Click the (?) icon
 next to the app name at the top to see it again.
 Help: the small (?) icon next to each section title opens a short help
 page for that section. Back / Next (or the arrow keys, or a swipe) move
