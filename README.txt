@@ -92,6 +92,21 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
   (sliders) that lists the exact print dialog settings to use. In manual double-sided
   mode there are two buttons: "1 Fronts" and "2 Backs".
   Hover a disabled Print button to see why printing is not possible yet.
+- Download (arrow icon, last in the preview toolbar) saves the layout as a
+  file instead of printing it:
+    PDF          one file, every page at the exact paper size - print it
+                 later, on another computer or at a print shop (scale 100%).
+    PNG          pictures with no quality loss (bigger files).
+    JPEG / JPG   smaller pictures; the same format, only the file ending
+                 differs (some programs expect .jpg).
+  Quality: Maximum (600 DPI), High (300 DPI, recommended), Medium (200 DPI)
+  or Small file (150 DPI). The window shows the pages, the picture size and
+  the file name before you click Download. With several pages the pictures
+  come together in one .zip file. Pages are the same as the print output:
+  double-sided layouts give Front 1, Back 1, Front 2, Back 2 ... with the
+  backs mirrored exactly as printed. The pictures store their resolution,
+  so printing them at 100% / actual size gives cards at their true size.
+  The file is made on this computer; nothing is uploaded.
 - The floating button at the bottom right (always on top) holds all info,
   warning and error messages. Its colour shows the most serious one:
   red = error, amber = warning, green = all good; the badge shows how many
@@ -154,6 +169,7 @@ Step by step, with all options:
 7. Check the preview and the messages button (bottom corner).
 8. Click Print in the preview toolbar and apply the print settings
    (listed under the settings icon next to the Print button).
+   Or click Download (arrow icon) to save the layout as a PDF or picture.
 
 
 6. IMAGES

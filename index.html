@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <!-- Filled by the app with the exact @page size of the selected paper. -->
   <style id="dynamic-page-style"></style>
-  <script defer src="./assets/app-XrsxwfUS.js"></script>
-  <link rel="stylesheet" href="./assets/style-bZImVMs5.css">
+  <script defer src="./assets/app-a3sEOKrs.js"></script>
+  <link rel="stylesheet" href="./assets/style-DVXojhN3.css">
 </head>
 <body>
   <div id="app" class="app">
@@ -444,6 +444,27 @@
                   <div class="print-help-panel" id="print-help-panel" role="dialog" aria-label="Print dialog settings" hidden data-i18n-attr="aria-label:preview.print_dialog_settings">
                     <p class="print-help-title" data-i18n="preview.print_dialog_settings">Print dialog settings</p>
                     <ul id="print-instructions"></ul>
+                  </div>
+                </div>
+                <div class="download-menu">
+                  <button type="button" class="btn btn-icon btn-download" id="btn-download" aria-expanded="false" aria-controls="download-panel" aria-label="Download as PDF or picture" data-tip="Download the layout as a PDF or a picture (PNG, JPEG, JPG)" data-i18n-attr="aria-label:download.button;data-tip:download.button_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5"/><path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg></button>
+                  <div class="download-panel" id="download-panel" role="dialog" aria-labelledby="download-title" hidden>
+                    <p class="download-title" id="download-title" data-i18n="download.title">Download the layout</p>
+                    <div class="inline-field">
+                      <span class="field-label" id="download-format-label" data-i18n="download.format">Format</span>
+                      <div class="segmented segmented-sm" id="download-format" role="radiogroup" aria-labelledby="download-format-label">
+                        <label data-tip="One PDF file with every page at the exact paper size: print it later or at a print shop" data-i18n-attr="data-tip:download.format_pdf_tip"><input type="radio" name="downloadFormat" value="pdf" checked><span dir="ltr">PDF</span></label>
+                        <label data-tip="Picture with no quality loss (bigger file)" data-i18n-attr="data-tip:download.format_png_tip"><input type="radio" name="downloadFormat" value="png"><span dir="ltr">PNG</span></label>
+                        <label data-tip="Smaller picture file in the usual photo format (.jpeg)" data-i18n-attr="data-tip:download.format_jpeg_tip"><input type="radio" name="downloadFormat" value="jpeg"><span dir="ltr">JPEG</span></label>
+                        <label data-tip="Same as JPEG, with the .jpg ending some programs expect" data-i18n-attr="data-tip:download.format_jpg_tip"><input type="radio" name="downloadFormat" value="jpg"><span dir="ltr">JPG</span></label>
+                      </div>
+                    </div>
+                    <div class="inline-field">
+                      <label class="field-label" for="download-quality" data-i18n="download.quality">Quality</label>
+                      <select id="download-quality" data-tip="Higher quality gives sharper cards and a bigger file" data-i18n-attr="data-tip:download.quality_tip"></select>
+                    </div>
+                    <p class="hint download-info" id="download-info" aria-live="polite"></p>
+                    <button type="button" class="btn btn-primary btn-download-go" id="btn-download-go" data-tip="Make the file and save it on this computer" data-i18n-attr="data-tip:download.go_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5"/><path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg><span id="btn-download-go-label">Download</span></button>
                   </div>
                 </div>
               </div>
