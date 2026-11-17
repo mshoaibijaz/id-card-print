@@ -396,7 +396,9 @@ Sending to the layout
   8R (8 x 10 in), S8R (8 x 12 in), 10R (10 x 12 in), 11R (11 x 14 in).
   Standard ID cards: 4 x 6 in holds 2 (upright, Separate pages); 5 x 7 in
   holds 4 turned sideways, or 2 front + back pairs; 8 x 10 in holds 8.
-  Each size is listed in mm and inches, e.g. "A4 (210 x 297 mm) - (8.27 x 11.69 in)".
+  The list shows three aligned columns: name, size in mm, size in inches
+  (e.g. "A4   210 x 297   8.27 x 11.69"; "mm" and "in" are named at the top). Keyboard: arrows, Home /
+  End or a letter to move, Enter to choose, Esc to close.
 - Custom size: enter width and height (10 mm to 5000 mm) and the unit.
 - Orientation: Portrait or Landscape (also applied to custom sizes).
 - Copies per page, rows, columns and pages are recalculated instantly.

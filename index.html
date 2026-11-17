@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <!-- Filled by the app with the exact @page size of the selected paper. -->
   <style id="dynamic-page-style"></style>
-  <script defer src="./assets/app-D0CltbXB.js"></script>
-  <link rel="stylesheet" href="./assets/style-DHnqAGN2.css">
+  <script defer src="./assets/app-BJgtyq6y.js"></script>
+  <link rel="stylesheet" href="./assets/style-CCUr8CQf.css">
 </head>
 <body>
   <div id="app" class="app">
@@ -332,8 +332,16 @@
                     <div class="panel-body" id="body-paper">
             <div class="paper-row">
               <div class="field">
-                <label for="paper-size" data-i18n="paper.paper_size">Paper size</label>
-                <select id="paper-size" data-tip="Paper in your printer. ISO A/B and North American sizes, or Custom" data-i18n-attr="data-tip:paper.paper_in_your_printer_iso_a"></select>
+                <label for="paper-picker" id="paper-size-label" data-i18n="paper.paper_size">Paper size</label>
+                <div class="paper-picker" id="paper-picker-wrap">
+                  <button type="button" class="paper-picker-btn" id="paper-picker" aria-haspopup="listbox" aria-expanded="false" aria-controls="paper-menu" data-tip="Paper in your printer: ISO A/B, North American or photo paper sizes, or Custom" data-i18n-attr="data-tip:paper.paper_in_your_printer_iso_a">
+                    <span class="paper-picker-value" id="paper-picker-value"></span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="paper-menu" id="paper-menu" role="listbox" tabindex="-1" aria-labelledby="paper-size-label" hidden></div>
+                </div>
+                <!-- the source of truth for the paper; the picker above sets it (src/ui/paper-picker.js) -->
+                <select id="paper-size" class="visually-hidden" tabindex="-1" aria-hidden="true"></select>
               </div>
               <div class="field">
                 <span class="field-label" id="orientation-label" data-i18n="paper.orientation">Orientation</span>
