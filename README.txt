@@ -390,7 +390,12 @@ Sending to the layout
 9. PAPER SIZE AND ORIENTATION
 -----------------------------
 - Choose from ISO A0-A10, ISO B0-B10, Letter, Legal, Junior Legal,
-  Tabloid / Ledger, Executive, Statement, or "Custom size...".
+  Tabloid / Ledger, Executive, Statement, photo paper, or "Custom size...".
+- Photo paper: 3R (3.5 x 5 in), 4R (4 x 6 in), 10 x 15 cm, Hagaki
+  (postcard), 5R (5 x 7 in), 13 x 18 cm, 6R (6 x 8 in), 15 x 20 cm,
+  8R (8 x 10 in), S8R (8 x 12 in), 10R (10 x 12 in), 11R (11 x 14 in).
+  Standard ID cards: 4 x 6 in holds 2 (upright, Separate pages); 5 x 7 in
+  holds 4 turned sideways, or 2 front + back pairs; 8 x 10 in holds 8.
   Each size is listed in mm and inches, e.g. "A4 (210 x 297 mm) - (8.27 x 11.69 in)".
 - Custom size: enter width and height (10 mm to 5000 mm) and the unit.
 - Orientation: Portrait or Landscape (also applied to custom sizes).
