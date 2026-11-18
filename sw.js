@@ -16,7 +16,7 @@ const FILES = [
   "./",
   "assets/app-CW7wJA6W.js",
   "assets/jameel-noori-nastaleeq-Harg1W3e.woff2",
-  "assets/style-BCB1WA20.css",
+  "assets/style-1X0NnkUn.css",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "icons/icon-512.png",
