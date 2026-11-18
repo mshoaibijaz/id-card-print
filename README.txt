@@ -374,6 +374,15 @@ Sending to the layout
   back and forth never changes the layout.
 - Width / Height: type values directly. Up/Down arrow keys adjust them
   (hold Shift for bigger steps). A comma is accepted as decimal separator.
+- Number fields take only what fits them; any other key does nothing and a
+  short note under the field says why:
+    Whole numbers (copies, zoom %): digits only.
+    Sizes, margins, spacing, corner radius: digits and one decimal point
+      (card size and paper: 2 decimals in mm, 4 in inches; margins and
+      spacing: 3; corner radius: 2). They cannot be negative.
+    Back-page shift: may also start with a minus.
+  Pasted text keeps its number (4.7 in Copies gives 4). Urdu digits are
+  changed to 0-9. Card width and height must be 10 mm or more.
 - Maintain aspect ratio (the chain icon between width and height): when
   it is on (blue), changing one side updates the other.
   Untick it to set width and height independently.
