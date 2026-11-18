@@ -18,6 +18,11 @@ next to the app name at the top to see it again.
 Help: the small (?) icon next to each section title opens a short help
 page for that section. Back / Next (or the arrow keys, or a swipe) move
 through the welcome page and all help pages.
+Tour: "Take the tour" on the welcome screen, or the play icon (a triangle
+in a circle) right after the (?) next to the app name, walks you through
+printing a card: each step highlights one part of the screen and says what
+it does. Next / Back (or the arrow keys) move; X or Esc ends it. It changes
+nothing: afterwards the screen is as it was.
 
 
 1. FILES

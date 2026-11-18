@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <!-- Filled by the app with the exact @page size of the selected paper. -->
   <style id="dynamic-page-style"></style>
-  <script defer src="./assets/app-DwEA6n9t.js"></script>
-  <link rel="stylesheet" href="./assets/style-C1zFN-4e.css">
+  <script defer src="./assets/app-BKTz1uNm.js"></script>
+  <link rel="stylesheet" href="./assets/style-DKr77fU_.css">
 </head>
 <body>
   <div id="app" class="app">
@@ -21,6 +21,7 @@
         <div class="brand-title">
           <h1><span data-i18n="app.id_card_print_layout">ID Card Print Layout</span> <span class="app-version" id="app-version" dir="ltr" lang="en" data-no-i18n></span></h1>
           <button type="button" class="section-help" id="btn-welcome" data-help="welcome" data-tip="Show the welcome screen: how to print, and what the app can do" data-i18n-attr="data-tip:app.show_welcome_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.8"/><circle cx="12" cy="17.4" r="0.7" class="fill"/></svg></button>
+          <button type="button" class="btn-tour" id="btn-tour" data-tip="Take a short tour: how to print a card, step by step" data-i18n-attr="data-tip:tour.start_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path class="tri" d="M10.2 8.6v6.8l5.4-3.4z"/></svg></button>
         </div>
         <p class="subtitle" data-i18n="app.works_offline_images_never_leave_this">Needs internet only once · images stay on this device</p>
       </div>
@@ -744,7 +745,7 @@
           <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 14l3 3 3-3M12 10v7"/></svg><span><strong data-i18n="welcome.f_files">PDF and pictures</strong><small data-i18n="welcome.f_files_text">Save instead of printing</small></span></li>
           <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span><strong data-i18n-html="welcome.f_languages">English and <span lang="ur">اردو</span></strong><small data-i18n="welcome.f_languages_text">Light and dark theme</small></span></li>
       </ul>
-      <p class="welcome-again" data-i18n="welcome.again">See this again: click (?) next to the app name.</p>
+      <p class="welcome-again" data-i18n="welcome.again">See this again: click (?) next to the app name. ▶ beside it replays the tour.</p>
         </section>
         <section class="welcome-page help-page" data-page="images" aria-labelledby="help-title-images">
           <header class="welcome-head help-head">
@@ -928,6 +929,7 @@
         </section>
       </div>
       <footer class="welcome-foot">
+        <button type="button" class="btn btn-small welcome-tour" id="btn-welcome-tour" title="Take a short tour: how to print a card, step by step" aria-label="Take the tour" data-i18n-attr="title:tour.start_tip;aria-label:tour.take"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path class="tri" d="M10.2 8.6v6.8l5.4-3.4z"/></svg><span data-i18n="tour.take">Take the tour</span></button>
         <nav class="welcome-nav" aria-label="Help pages" data-i18n-attr="aria-label:help.pages">
           <button type="button" class="btn btn-small welcome-prev" id="btn-welcome-prev" title="Back" data-i18n-attr="title:help.back"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span data-i18n="help.back">Back</span></button>
           <span class="welcome-dots" id="welcome-dots"></span>
