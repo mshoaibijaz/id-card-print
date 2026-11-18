@@ -118,6 +118,9 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
   backs mirrored exactly as printed. The pictures store their resolution,
   so printing them at 100% / actual size gives cards at their true size.
   The file is made on this computer; nothing is uploaded.
+  Many pages at a high quality take a while (the window says so): while
+  the file is being made, the Download button becomes Cancel; nothing is
+  saved after Cancel.
 - The floating button at the bottom right (always on top) holds all info,
   warning and error messages. Its colour shows the most serious one:
   red = error, amber = warning, green = all good; the badge shows how many
