@@ -103,8 +103,23 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
   or press and hold on a touch screen) to see what it does.
 - The title bar has two tabs: "Layout & Print" (everything below) and
   "Photo Editor" (section 7).
-- The title bar shows a live summary: paper, card size, printable area,
-  grid, copies per page, requested copies, pages and distribution.
+- The title bar shows a live summary. Every count is in finished cards,
+  like Copies, and says its unit; hover an item to see what it means:
+    Paper          paper name, size and orientation
+    Card           the size every card is printed at
+    Print area     the part inside the margins (or "Whole page, evenly
+                   spaced")
+    Fits           how many fit on one sheet, e.g. "1 pair across x 5
+                   down" (pairs) or "2 cards across x 5 down"
+    Per page       finished cards one sheet gives
+    Copies         the finished cards you asked for
+    You get        only when an odd number of double-sided pairs adds
+                   one card, e.g. "6 cards (1 extra)"
+    Sheets         sheets of paper; "3, both sides" for double-sided
+    On each sheet  cards on each sheet, e.g. "10 + 10 + 3" (2 or more
+                   sheets)
+  When the window is narrow, the less important items are left out;
+  hovering the summary still lists them all.
 - The Print Preview (5) stays on the right. Its toolbar has Front / Back,
   page navigation, zoom, the Print button(s) and a settings icon
   (sliders) that lists the exact print dialog settings to use. In manual double-sided
@@ -436,15 +451,18 @@ PAPER_SIZE_GROUPS in src/core/constants.js and rebuild, e.g.:
 
 10. LAYOUT MODES
 ---------------
-What one copy means (the same is shown under the Copies field, and the
-number of finished cards appears when it differs from the copies):
+Copies always count finished cards, in every layout (since version 3.0;
+the same is shown under the Copies field):
   Side-by-side pairs, one-sided   1 copy = the front and the back, printed
                                   side by side on one side of the paper.
   Side-by-side pairs, double-sided
-                                  1 copy = a pair printed again (swapped)
-                                  on the other side: it cuts into 2
-                                  complete double-sided cards.
-                                  5 copies -> 10 finished cards.
+                                  1 copy = 1 complete double-sided card.
+                                  Each pair is printed again (swapped) on
+                                  the other side and cuts into 2 cards, so
+                                  10 copies print 5 pairs. An odd number is
+                                  rounded up to whole pairs: 5 copies ->
+                                  3 pairs -> 6 cards (1 extra, shown under
+                                  Copies).
   Separate pages                  1 copy = 1 complete double-sided card
                                   (front, with its back printed behind it).
   A card without a back           1 copy = 1 card, in every layout.
@@ -460,7 +478,7 @@ A) Side-by-side pairs
      Double-sided - the reverse side is printed too: behind every front
                     image its back, and behind every back image its front.
                     Each pair therefore cuts into 2 complete double-sided
-                    cards (e.g. 4 pairs = 8 finished cards). It uses the
+                    cards: 8 copies print 4 pairs. It uses the
                     same duplex options as separate pages (automatic long /
                     short edge or manual, rotate 180, fine alignment).
 
