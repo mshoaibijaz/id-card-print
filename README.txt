@@ -81,11 +81,13 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
 - Left menu (icons only, like Azure DevOps): one icon per section -
     1 Image Upload, 2 Card Size and Copies, 3 Layout Options,
     4 Paper, Margins and Spacing,
-  plus Full window preview, Print and Messages. Hover an icon to see its
+  plus Full window preview, Print, Download and Messages. Hover an icon to see its
   name. On phones the menu is a bar at the bottom of the screen.
   "Print" prints directly (in manual double-sided mode it takes you to
   the "1 Fronts" / "2 Backs" buttons) and is greyed out
-  until printing is possible. "Messages" opens the messages list; its
+  until printing is possible. "Download" opens the Download panel of the
+  preview (PDF or picture), the same as the download button next to Print;
+  click it again to close the panel. "Messages" opens the messages list; its
   badge shows the number and colour of the messages.
   The button at the bottom of the menu switches how the settings are
   shown (your choice is remembered next time):
