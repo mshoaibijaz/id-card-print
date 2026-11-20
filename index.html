@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <!-- Filled by the app with the exact @page size of the selected paper. -->
   <style id="dynamic-page-style"></style>
-  <script defer src="./assets/app-D36SqJHd.js"></script>
-  <link rel="stylesheet" href="./assets/style-D4sa_DIH.css">
+  <script defer src="./assets/app-CSntN4vr.js"></script>
+  <link rel="stylesheet" href="./assets/style-D1NCUkCP.css">
 </head>
 <body>
   <div id="app" class="app">
@@ -490,8 +490,16 @@
                       <label class="field-label" for="download-quality" data-i18n="download.quality">Quality</label>
                       <select id="download-quality" data-tip="Higher quality gives sharper cards and a bigger file" data-i18n-attr="data-tip:download.quality_tip"></select>
                     </div>
+                    <div class="inline-field download-name-row" id="download-name-row">
+                      <label class="field-label" for="download-name" data-i18n="download.name">File name</label>
+                      <div class="download-name-box"><input type="text" id="download-name" dir="auto" autocomplete="off" spellcheck="false" maxlength="120" placeholder="id-cards" data-tip="Name of the file (the ending is added for you). Leave it empty for the usual name." data-i18n-attr="data-tip:download.name_tip"><span class="download-name-ext" id="download-name-ext" dir="ltr">.pdf</span></div>
+                    </div>
                     <p class="hint download-info" id="download-info" aria-live="polite"></p>
-                    <button type="button" class="btn btn-primary btn-download-go" id="btn-download-go" data-tip="Make the file and save it on this computer" data-i18n-attr="data-tip:download.go_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5"/><path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg><span id="btn-download-go-label">Download</span></button>
+                    <div class="download-ready" id="download-ready" hidden>
+                      <button type="button" class="btn btn-primary" id="btn-download-save" data-tip="Save the file on this device (in Downloads)" data-i18n="download.save" data-i18n-attr="data-tip:download.save_tip">Save</button>
+                      <button type="button" class="btn" id="btn-download-share" data-tip="Share the file, or save it where you choose: Files, Drive, WhatsApp, email …" data-i18n="download.share" data-i18n-attr="data-tip:download.share_tip">Share…</button>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-download-go" id="btn-download-go" data-tip="Make the file and save it; you choose its name" data-i18n-attr="data-tip:download.go_tip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5"/><path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg><span id="btn-download-go-label">Download</span></button>
                   </div>
                 </div>
               </div>

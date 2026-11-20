@@ -126,6 +126,13 @@ for exact sizes a computer with Chrome or Edge is the safest choice.
   Many pages at a high quality take a while (the window says so): while
   the file is being made, the Download button becomes Cancel; nothing is
   saved after Cancel.
+  Name and place of the file:
+    Chrome / Edge on a computer: Download opens the usual Save As window,
+      where you choose the folder and the name. Cancel there makes nothing.
+    Firefox / Safari: type the name in File name (the ending is added for
+      you; empty = id-cards). The browser saves it where it saves downloads.
+    Phones and tablets: type the name, tap Download, then Save (to
+      Downloads) or Share... (Save to Files, Drive, WhatsApp, email ...).
 - The floating button at the bottom right (always on top) holds all info,
   warning and error messages. Its colour shows the most serious one:
   red = error, amber = warning, green = all good; the badge shows how many
